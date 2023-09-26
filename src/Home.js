@@ -1,8 +1,10 @@
 import React from "react";
 import backgroundImage from "./images/bg-bw.jpeg";
 import "./Home.css";
-import About from "./About";
+import Projects from "./Project";
 import Tech from "./Tech";
+import Footer from "./Footer";
+import CV from "./htoowaiyan-cv.pdf";
 
 function Home() {
   return (
@@ -15,16 +17,16 @@ function Home() {
       }}
     >
       <div className="mt-20">
-        <h1 className="name text-6xl sm:text-7xl md:text-8xl  text-amber font-bold mb-4 text-center transition-all duration-500">
+        <h1 className="name text-4xl sm:text-6xl md:text-8xl  text-amber font-bold mb-4 text-center transition-all duration-500">
           HTOO WAI YAN
         </h1>
-        <h3 className="job text-4xl sm:text-5xl md:text-6xl text-amber font-bold mb-8 text-center transition-all duration-500">
+        <h3 className="job text-3xl sm:text-5xl md:text-7xl text-amber font-bold mb-8 text-center transition-all duration-500">
           a software engineer
         </h3>
 
         <div className="absolute top-0 right-0 mt-4 mr-4">
           <a
-            href="/path/to/your/cv.pdf"
+            href={CV}
             download
             className="download text-xl text-black hover:underline font-bold py-2"
           >
@@ -33,7 +35,11 @@ function Home() {
         </div>
 
         <div className="absolute top-0 left-0 mt-4 ml-4 flex">
-          <a href="https://www.linkedin.com">
+          <a
+            href="https://www.linkedin.com/in/htoo-wai-yan"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             <span
               className="text-xl text-black font-bold mr-2 hover:underline"
               style={{ textShadow: "1px white" }}
@@ -41,7 +47,11 @@ function Home() {
               LinkedIn
             </span>
           </a>
-          <a href="https://www.github.com">
+          <a
+            href="https://github.com/h2waiyan"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             <span
               className="text-xl text-black font-bold mr-2 hover:underline"
               style={{ textShadow: "0 0 2px white" }}
@@ -60,7 +70,8 @@ export const App = () => {
     <div>
       <Home />
       <Tech />
-      <About />
+      <Projects />
+      <Footer />
     </div>
   );
 };

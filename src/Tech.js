@@ -29,7 +29,7 @@ const TechImage = ({ src, alt }) => {
 
 const Tech = () => {
   return (
-    <div className="bg-gray-100 p-8">
+    <div className="bg-gray-100 p-20">
       <h2 className="text-2xl font-bold text-gray-900 mb-4 text-center">
         Tech Stack
       </h2>
