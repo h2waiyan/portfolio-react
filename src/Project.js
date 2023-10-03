@@ -1,6 +1,8 @@
 import React from "react";
-import rectangleImage from "./images/heingp-transportation.png";
-import bagan from "./images/profile.jpg";
+import transport from "./images/heingp-transportation.png";
+import hein from "./images/hein.jpg";
+import coc from "./images/coc.jpg";
+import gold from "./images/gold.jpg";
 
 const ProjectShowcase = ({ title, subtitle, imgsrc }) => {
   return (
@@ -16,7 +18,7 @@ const ProjectShowcase = ({ title, subtitle, imgsrc }) => {
       <img
         src={imgsrc}
         alt="project-img"
-        className="w-full sm:w-64 h-48 object-cover filter grayscale sm:ml-8"
+        className="w-full sm:w-60 h-40 object-cover filter grayscale sm:ml-8"
       />
     </div>
   );
@@ -33,22 +35,22 @@ const Projects = () => {
           <ProjectShowcase
             title="Class on Cloud"
             subtitle="An online communication platform for students, teachers and parents"
-            imgsrc={bagan}
+            imgsrc={coc}
           />
           <ProjectShowcase
             title="Hein Group Online Ticketing System"
             subtitle="An app where passengers can book their trip online"
-            imgsrc={rectangleImage}
+            imgsrc={transport}
           />
           <ProjectShowcase
             title="Sein Kyaw Moe Gold and Jwellery"
             subtitle="A Point of Sale System for a gold shop"
-            imgsrc={bagan}
+            imgsrc={gold}
           />
           <ProjectShowcase
             title="Hein Group Business"
             subtitle="A cash book app for a transportaion company"
-            imgsrc={rectangleImage}
+            imgsrc={hein}
           />
         </div>
       </div>
