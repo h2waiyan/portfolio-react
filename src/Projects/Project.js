@@ -1,8 +1,8 @@
 import React from "react";
-import transport from "./images/heingp-transportation.png";
-import hein from "./images/hein.jpg";
-import coc from "./images/coc.jpg";
-import gold from "./images/gold.jpg";
+import transport from "../images/heingp-transportation.png";
+import hein from "../images/hein.jpg";
+import coc from "../images/coc.jpg";
+import gold from "../images/gold.jpg";
 
 const ProjectShowcase = ({ title, subtitle, imgsrc }) => {
   return (

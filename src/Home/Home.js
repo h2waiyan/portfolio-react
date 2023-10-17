@@ -1,10 +1,10 @@
 import React from "react";
-import backgroundImage from "./images/bg-bw.jpeg";
+import backgroundImage from "../images/bg-bw.jpeg";
 import "./Home.css";
-import Projects from "./Project";
-import Tech from "./Tech";
-import Footer from "./Footer";
-import CV from "./htoowaiyan-cv.pdf";
+import Projects from "../Projects/Project";
+import Tech from "../Tech/Tech";
+import Footer from "../Footer/Footer";
+import CV from "../htoowaiyan-cv.pdf";
 
 function Home() {
   return (
@@ -17,10 +17,10 @@ function Home() {
       }}
     >
       <div className="mt-20">
-        <h1 className="name text-4xl sm:text-6xl md:text-8xl  text-amber font-bold mb-4 text-center transition-all duration-500">
+        <h1 className="name text-4xl sm:text-6xl md:text-8xl  text-amber sm:font-bold mb-4 text-center transition-all duration-500">
           HTOO WAI YAN
         </h1>
-        <h3 className="job text-3xl sm:text-5xl md:text-7xl text-amber font-bold mb-8 text-center transition-all duration-500">
+        <h3 className="job text-3xl sm:text-5xl md:text-7xl text-amber sm:font-bold mb-8 text-center transition-all duration-500">
           a software engineer
         </h3>
 
@@ -28,7 +28,7 @@ function Home() {
           <a
             href={CV}
             download
-            className="download text-xl text-black hover:underline font-bold py-2"
+            className="download text-xl text-black hover:underline py-2"
           >
             Download CV
           </a>

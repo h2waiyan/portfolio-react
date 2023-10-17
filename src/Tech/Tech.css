@@ -1,0 +1,53 @@
+.hidescroll {
+  overflow-y: scroll;
+  scrollbar-width: none; /* Firefox */
+  -ms-overflow-style: none; /* Internet Explorer 10+ */
+}
+.hidescroll::-webkit-scrollbar {
+  /* WebKit */
+  width: 0;
+  height: 0;
+}
+
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.techimg {
+  max-width: 150px;
+  height: 3rem;
+  padding: 0 15px;
+  object-fit: cover;
+}
+
+.techimg:last-of-type {
+  padding-left: 0;
+}
+
+.inner {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+  height: 5rem;
+}
+
+.wrapper {
+  position: absolute;
+  display: flex;
+}
+
+section {
+  display: flex;
+  animation: swipe var(--speed) linear infinite backwards;
+}
+
+@keyframes swipe {
+  0% {
+    transform: translate(0);
+  }
+
+  100% {
+    transform: translate(-100%);
+  }
+}
