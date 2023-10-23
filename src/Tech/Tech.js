@@ -42,15 +42,15 @@ const images = [
   image,
 }));
 
-// const TechImage = ({ src, alt }) => {
-//   return (
-//     <img
-//       src={src}
-//       alt={alt}
-//       className="w-12 h-12 py-2 filter grayscale hover:grayscale-0"
-//     />
-//   );
-// };
+const TechImage = ({ src, alt }) => {
+  return (
+    <img
+      src={src}
+      alt={alt}
+      className="w-12 h-12 py-2 filter grayscale hover:grayscale-0"
+    />
+  );
+};
 
 const Tech = () => {
   return (
@@ -59,8 +59,8 @@ const Tech = () => {
         Tech Stack
       </h2>
 
-      <Banner images={images} speed={20000} className="mt-8" />
-      {/* <div className="mt-8 flex justify-center">
+      {/* <Banner images={images} className="mt-8" /> */}
+      <div className="mt-8 flex justify-center">
         <div className="flex gap-3 overflow-x-scroll hidescroll">
           <TechImage src={html} alt="HTML" />
           <TechImage src={css} alt="CSS" />
@@ -79,7 +79,7 @@ const Tech = () => {
           <TechImage src={git} alt="Tailwind CSS" />
           <TechImage src={github} alt="Tailwind CSS" />
         </div>
-      </div> */}
+      </div>
     </div>
   );
 };
