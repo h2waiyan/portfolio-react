@@ -17,30 +17,30 @@ import mongodb from "../images/Tech Logo SVG/mongo-svgrepo-com.svg";
 import git from "../images/Tech Logo SVG/git-svgrepo-com.svg";
 import github from "../images/Tech Logo SVG/github-svgrepo-com.svg";
 import "../Tech/Tech.css";
-import { Banner } from "./Banner";
+// import { Banner } from "./Banner";
 
-const images = [
-  html,
-  css,
-  js,
-  ts,
-  bootstrap,
-  tailwind,
-  angular,
-  react,
-  dart,
-  flutter,
-  nodejs,
-  python,
-  mysql,
-  postgresql,
-  mongodb,
-  git,
-  github,
-].map((image) => ({
-  id: crypto.randomUUID(),
-  image,
-}));
+// const images = [
+//   html,
+//   css,
+//   js,
+//   ts,
+//   bootstrap,
+//   tailwind,
+//   angular,
+//   react,
+//   dart,
+//   flutter,
+//   nodejs,
+//   python,
+//   mysql,
+//   postgresql,
+//   mongodb,
+//   git,
+//   github,
+// ].map((image) => ({
+//   id: crypto.randomUUID(),
+//   image,
+// }));
 
 const TechImage = ({ src, alt }) => {
   return (
