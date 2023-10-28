@@ -73,6 +73,7 @@ const Tech = () => {
           <TechImage src={nodejs} alt="JavaScript" />
           <TechImage src={dart} alt="Bootstrap" />
           <TechImage src={flutter} alt="Tailwind CSS" />
+          <TechImage src={python} alt="Python" />
           <TechImage src={mysql} alt="Bootstrap" />
           <TechImage src={postgresql} alt="Tailwind CSS" />
           <TechImage src={mongodb} alt="Tailwind CSS" />
