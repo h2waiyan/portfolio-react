@@ -10,7 +10,7 @@ import react from "../images/Tech Logo SVG/react-svgrepo-com.svg";
 import dart from "../images/Tech Logo SVG/dart-svgrepo-com.svg";
 import flutter from "../images/Tech Logo SVG/flutter-svgrepo-com.svg";
 import nodejs from "../images/Tech Logo SVG/nodejs-icon-svgrepo-com.svg";
-import python from "../images/Tech Logo SVG/py.webp";
+import python from "../images/Tech Logo SVG/py.svg";
 import mysql from "../images/Tech Logo SVG/brand-mysql-svgrepo-com.svg";
 import postgresql from "../images/Tech Logo SVG/postgresql-svgrepo-com.svg";
 import mongodb from "../images/Tech Logo SVG/mongo-svgrepo-com.svg";
