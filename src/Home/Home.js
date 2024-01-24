@@ -18,7 +18,7 @@ function Home() {
       }}
     >
       <div className="mt-15 flex flex-col justify-center items-center ">
-        <img src={pp} className="filter grayscale hover:grayscale-0 rounded-full w-20 h-20 sm:w-48 sm:h-32 md:w-32 md:h-32 object-cover mb-3" />
+        <img alt="profile img" src={pp} className="filter grayscale hover:grayscale-0 rounded-full w-20 h-20 sm:w-48 sm:h-32 md:w-32 md:h-32 object-cover mb-3" />
         <h1 className="name text-4xl sm:text-6xl md:text-8xl  text-amber sm:font-bold mb-4 text-center transition-all duration-500">
           HTOO WAI YAN
         </h1>
